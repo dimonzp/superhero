@@ -1,0 +1,28 @@
+$mainColor:  #e62f38
+
+.form
+    display: grid
+    grid-template-columns: 1fr 2fr 1fr
+
+.formCenter
+    display: grid
+
+.but
+    font-weight: 500
+    color: white
+    line-height: 50%
+    text-decoration: none
+    padding: .8em 1em calc(.8em + 3px)
+    border-radius: 3px
+    background: $mainColor
+    box-shadow: 0 -3px #cc262e inset
+    transition: 0.2s
+
+    &:hover
+        background: #cc262e
+    &:active
+        background: #b41e26
+        box-shadow: 0 3px #8b191e inset
+.loadPhoto
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
